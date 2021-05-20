@@ -1,3 +1,4 @@
+// copied from the official solutions but I understand it
 import React from "react";
 
 function QuestionItem({ question, onDeleteClick, onAnswerChange }) {
