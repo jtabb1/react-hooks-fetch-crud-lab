@@ -31,7 +31,7 @@ function QuestionForm(props) {
           formData.answer3,
           formData.answer4
         ],
-      "correctIndex": formData.correctIndex
+      "correctIndex": parseInt(formData.correctIndex)
     };
     fetch('http://localhost:4000/questions',{
       method: "Post",
